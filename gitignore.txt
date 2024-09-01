@@ -1,0 +1,15 @@
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Build artifacts
+dist/
+build/
+*.out
+*.min.js
+*.map
+
+# Environment variables
+.env
+.env.local
+.env.*.local
