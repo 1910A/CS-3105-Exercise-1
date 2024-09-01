@@ -1,0 +1,17 @@
+<html>
+<head>
+    Name: <input type="text" id="userInput">
+    <button id="subBut">Enter</button>
+    <p id = "printText"></p>
+    <script>
+    let username;
+
+    document.getElementById("subBut").onclick = function(){
+        username = document.getElementById("userInput").value;
+        document.getElementById("printText").textContent = `Hello ${username}! Welcome to CS 3105.`
+    }
+   </script>
+</head>
+<body>
+</body>
+<html>
